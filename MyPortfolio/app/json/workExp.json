@@ -1,0 +1,36 @@
+[
+	{
+		"compname" : "IBM",
+		"role" : "Application Developer",
+		"duration" : "Mar 2010 - Nov 2015",
+		"compimage" : "ibmx.jpg",
+		"workintro" : "I joined IBM India Private Limited at Bangalore, India in March 2010 as a Graduate Hire and I worked with IBM till November 2015. My Roles and responsibilities throughout my employment with IBM were as follows:",
+		"workdesc" : [
+			"Responsible for designing and developing of java/j2ee, spring, hibernate, Restful/SOAP web services, AnjularJS, NodeJS applications.",
+			"Involved in setting up environment on IBM BlueMix cloud and deploying the application in BlueMix and using IBM Big Insight Services.",
+			"Involved in debugging and analyzing the existing web application to fix the issues and enhance the existing code to incorporate any legislative changes.",
+			"Analyze existing application performance, memory leakages, code quality using various tools.",
+			"Involved in client interaction on requirements and implemented the same on sprint basis.",
+			"Involved in writing unit test cases for applications.",
+			"Involved in production and go live support of web applications.",
+			"Worked on creating UML diagram like use case, class and sequence diagram to new application as well as existing application using various design patterns.",
+			"Involved in unit and complete integration testing with other systems which involved WebSphere Application Server(WAS), JMS, soap web service and EJB technologies.",
+			"Involved in peer review of the code and suggested change to improve the code quality.",
+			"Involved in on-boarding new team members by training them with process and application as a part of knowledge transfer."
+		]
+	},
+	{
+		"compname" : "VMWare",
+		"role" : "Member of Technical Staff",
+		"duration" : "Nov 2015 - Mar 2017",
+		"compimage" : "vmware.png",
+		"workintro" : "I joined VMWare India Private Limited at Bangalore, India in November 2015 as a Member of Technical Staff and I worked with VMWare till March 2017. My Roles and responsibilities throughout my employment with VMWare were as follows:",
+		"workdesc" : [
+			"Responsible for designing and developing new features for VMware's cloud computing virtualization platform product vSphere v6.5.",
+			"Responsible to unit test the new features API functionality using Java, TestNG, and REST framework.",
+			"Work collaboratively with project manager, business analyst and developers on local site and on site counterpart teams from Palo Alto to design and develop the features for vSphere product.",
+			"Responsible to create new technical frameworks and reusable architectural components and providing technical solution to the team.",
+			"Responsible for Complete installation and deployment of Vsphere application in Nimbus Cloud and run Integration, System and Regression test suites."
+		]
+	}
+]

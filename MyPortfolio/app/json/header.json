@@ -1,0 +1,25 @@
+{
+	"name":"Lohith Venkataramanappa",
+	"navbar" : [
+		{ 
+			"navtitle" : "Home",
+			"navlink" : "home"
+		},
+		{ 
+			"navtitle" : "Profile",
+			"navlink" : "profile"
+		},
+		{ 
+			"navtitle" : "Work Experience",
+			"navlink" : "exp"
+		},
+		{ 
+			"navtitle" : "Projects",
+			"navlink" : "projects"
+		},
+		{ 
+			"navtitle" : "About",
+			"navlink" : "about"
+		}
+	]
+}

@@ -1,0 +1,140 @@
+[
+	{
+		"compname":"VMware India Pvt Ltd",
+		"workdate":"Nov 2015 - Mar 2017",
+		"workduration":"1 year 4 months",
+		"projects" : [
+			{
+				"projname":"VMcrypt IO Filter",
+				"projclient":"VMware vSphere 6.5 server virtualization product",
+				"projdesc":[
+					"In a typical cloud VM environment, there are many VMs hosted per machine, and not necessarily VMs belonging to the same customer. This has major security implications, since you can't allow data from one VM to leak to another VM. And you can't allow someone with filesystem access to backing storage the ability to read data belonging to all VMs. Encryption provides some remedy for this, especially for powered-off VMs. VMcrypt will be the 1st solution that VMware provides for encrypting a VM's data at rest on the vSphere platform. The VMcrypt IO filter is a transparent virtual disk encryption filter in ESX, a self-contained IO filter that is inboxed on ESX.",
+					"I was involved in the VPX platform changes necessary to support VMcrypt encryption. That includes key management work in vpxd, hostd and vpxa."
+				],
+				"projskills":[
+					"Java",
+					"TestNG",
+					"Nimbus Cloud",
+					"Perforce",
+					"VMware vSphere 6.5 server virtualization platform"
+				]
+			},
+			{
+				"projname":"Regression Dashboard",
+				"projclient":"VMware sdkqablr",
+				"projdesc":[
+					"A responsive web application test automation tool developed by me in VMware to automate regression tests. The tool just expects the user to select the vSphere and ESX product build numbers, the type of setup and the test suite name to excute. It deploys the selected builds on Nimbus cloud, creates the test setup on cloud as requested by the user and runs the tests against the setup. The animated test summary page also contains the results of the tests with a weblink to the log file of each test instead of tediously searching for the logs in the server path."
+				],
+				"projskills":[
+					"Java",
+					"Spring Boot",
+					"Bootstrap",
+					"AngularJS",
+					"Perforce",
+					"JQuery",
+					"Ruby Script"
+				]
+			}
+		]
+	},
+	{
+		"compname":"IBM India Pvt Ltd",
+		"workdate":"Mar 2010 - Nov 2015",
+		"workduration":"5 year's 8 month's",
+		"projects" : [
+			{
+				"projname":"Rating and Billing Manager (RBM)",
+				"projclient":"Telefonica UK (O2)",
+				"projdesc":[
+					"<b>Telefonica UK (O2)</b> which is one of the largest Mobile Service Provider in UK. It is distinguished by the wide array of products and provides enterprise solutions in billing and customer care. The IT platform is built using wide range of third party products such as RBM (billing) , Kana Response(Customer care), Comptel(mediation).",
+					"I was involved in - Design and development of APIs for RBM (Rating and Billing Manager) tool to leverage its functionalities to other components within its enterprise . The most commonly used functionalities include adding an account, adding or deleting a product, applying adjustments, creating payments and retrieving account details, treatments and bars. I have worked on a variety of projects for client Telefonica, few of them are :",
+					"<b>Project 76 (O2 Refresh) : </b>This CR was to split the charging of handsets from the charging of Airtime tariffs. A CCA account had to be created, along with the relevant charging mechanism so that Telefónica can sell handsets via a Consumer Credit Agreement.",
+					"<b>CR5289 – PCI – Mandate information in CareX :</b> The CR was aimed to provide the necessary mandate history information which was accessed through the CAM client, to CareX. Telefónica UK receive up to 50 calls a day from customers which require a search based on the Geneva Mandate reference (GED). Two new services (getGEDAccount and getMandateHistory) were to be created from scratch to accommodate the requirements.",
+					"<b>CR5451– RBM Billing Upgrade :</b> Upgrade of the database versions on Billing and the Operational Data Store from Oracle 9.2 to Oracle 11gR2. Upgrade of the Billing Application from Geneva 5.3 to Rating and Billing Manager (RBM) 6.0 and Upgrade of the Operating System on the Billing and ODS nodes from AIX 5.3 to AIX 6.1. It had no business logic change. The jump from Geneva 5.1 to RBM 6.0 has resulted in changes to the database tables that the Adapters access. Therefore SQL changes had to be made in order to accommodate these changes.",
+					"<b>New World Improvements (NWI) : </b>An immediate and time constraint requirement by client O2 to be in deployed in production within few weeks. No delta spec was provided by TDA because of the short notice. The design and development started in parallel and I had developed two new services as a part of this improvement. GetPendingPaymentRequests - This service will return details of any pending payment requests against an accounts last bill. UpdateNextBillDate - This service will update the CUSTOMER level NEXT_BILL_DATE. It will also cancel any pending payment requests and raise corresponding disputes to cover their value."
+				],
+				"projskills":[
+					"Core Java",
+					"JSP",
+					"Servlets",
+					"EJB 3.0",
+					"MDB",
+					"JDBC",
+					"JMS",
+					"WebSphere MQ",
+					"XML",
+					"WAS v7.0",
+					"Oracle 9.2",
+					"Geneva 5.3",
+					"Hibernate/JPA",
+					"IBM AIX",
+					"IBM ClearCase",
+					"IBM RAD"
+				]
+			},
+			{
+				"projname":"Tivoli Delegate Administrator (TDA)",
+				"projclient":"O2 UK",
+				"projdesc":[
+					"TDA is a Security Management Web Application developed from scratch. TDA is used by Admins for managing the domains and users. TDA consists of mainly key features like: User Management, Role Management, Groups, User Properties etc."
+				],
+				"projskills":[ 
+					"Java",
+					"Spring MVC",
+					"Bootstrap",
+					"HTML",
+					"CSS",
+					"Javascript",
+					"JQuery",
+					"Ajax",
+					"Hibernate/JPA",
+					"WebSphere Application Server (WAS) 7.0"
+				]
+			},
+			{
+				"projname":"Project WorkBook (PWB)",
+				"projclient":"IBM",
+				"projdesc":[
+					"A single Page application to track and record all the ongoing projects across the account. List the PMs working on the projects, schedule and duration of the projects, create maximos etc. An all in one tool to help PMs manage their work efficiently and make their life easier."
+				],
+				"projskills":[ 
+					"BootstrapJS",
+					"AngularJS",
+					"NodeJS",
+					"JSON",
+					"CSS",
+					"Ajax",
+					"IBM Cloudant NoSql DB"
+				]
+			},
+			{
+				"projname":"Customer Sentiment Analysis(CSA)",
+				"projclient":"IBM",
+				"projdesc":[
+					"The Customer Sentiment Analysis program will use natural language processing to identify and extract subjective information from the source which are resolved in to happy or sad or not sure using IBM Watson Bluemix and Big Insight services. This helps to get insight of the customer behavior, likes and dislikes of companies offering, buying signals, decision process, granular level understanding of customer sentiment."
+				],
+				"projskills":[ 
+					"Java",
+					"Spring Boot",
+					"Bootstrap",
+					"AngularJS",
+					"IBM Watson",
+					"IBM Big Insight services",
+					"IBM Bluemix"
+				]
+			},
+			{
+				"projname":"IHorizon",
+				"projclient":"O2 UK",
+				"projdesc":[
+					"IHorizon is a hybrid mobile application to present executive level summary dashboard to Senior leadership team in Telefonica. Basically a summary of all the component releases(CR) which are ongoing currently in the account and their production deployment dates, a color code indicating if the deployment was successful or failed, also all severity 1 issues encountered over a period of time. All this data in a presentable dashboard format in the mobile phone."
+				],
+				"projskills":[ 
+					"Ionic Framework",
+					"AngularJS",
+					"Apache Cordova"
+				]
+			}
+		]
+	}
+]

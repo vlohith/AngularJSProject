@@ -1,0 +1,47 @@
+{
+	"profileinfo" : {
+		"name" : "Lohith Venkataramanappa",
+		"designation" : "Java Web Full Stack Developer",
+		"work" : "VMware, IBM, Visvesvaraya Technological University",
+		"place" : "Sydney, New South Wales, Australia",
+		"image" : "pic.jpg"
+	},
+	"volunteerwork" : [
+		{
+			"foundationname" : "VMware Foundation - Employee Give Back",
+			"foundationdesc" : [
+				"VMware Foundation provides employees with five days each year to apply towards volunteer work and I am an active volunteer from the VMware Bangalore, India office. The VMware foundation volunteer team consists of a great cross-section of people from all different departments within the office. One of the best aspect is being able to meet new people and bond through teamwork.",
+				"Regular Service Learning activities such as teaching English and promoting safe driving near the office, advance the quality of education for girls through technology, supporting the local NGO/school etc were some of the activities which I have volunteered for."
+			]
+		}
+	],
+	"certifications": [
+		{
+			"certname":"Oracle Certified Professional, Java SE 6 Programmer",
+			"certdesc":"License OC1061881, Certification Date : Dec 2011",
+			"class" : "oracert"
+		},
+		{
+			"certname":"JavaScript: Understanding the Weird Parts",
+			"certdesc":"Udemy",
+			"class" : "jscert"
+		},
+		{
+			"certname":"Shaping-up-with-angular-js",
+			"certdesc":"Code School",
+			"class" : "ajscert"
+		}
+	],
+	"achievements" : [
+		"IBM Eminence and Excellence award - 2012",
+		"IBM STAR award - 2014",
+		"Winner of 2 IBM Liquid Competition Events and runner up in 3"
+	],
+	"hobbies" : "FOOSBALL, CRICKET, MUSIC",
+	"personalinfo" : {
+		"dob" : "26 October 1986",
+		"languages" : "English, Hindi and Kannada",
+		"maritalstatus" : "Married",
+		"visa" : "189 Skilled Independent PR visa"
+	}
+}

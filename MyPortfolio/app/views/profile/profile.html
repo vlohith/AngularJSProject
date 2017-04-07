@@ -1,0 +1,76 @@
+    <section id="about" class="section-padding section-border-bottom">
+        <div class="container">
+            <div class="row mb60">
+                <div class="col-xs-12 text-center">
+                    <h2>Profile</h2>
+                    <span class="divider divider-center divider-dark no-margin-bottom"></span>
+                </div>
+                <!-- /.column -->
+            </div>
+            <!-- /.row -->
+
+            <div class="row mb40">
+                <!-- Information -->
+                <div class="col-sm-24 col-md-12 col-lg-12 leftReveal">
+                    <h3 class="mb20"><span class="paragraph-logo">S</span>Summary</h3>
+                    <p class="mb20" ng-repeat="para in summaryData">{{para}}</p>
+                </div>
+                <!-- /.column -->
+            </div>
+            <!--row-->
+
+            <div class="row mb40">
+                <div class="col-sm-24 col-md-12 col-lg-12 mt40-xs skill-holder rightReveal">
+                    <h3 class="mb20"><span class="paragraph-logo">E</span> Education</h3>
+                    <div class="row mb40">
+                        <div class="col-sm-4 col-md-2 col-lg-2 mt40-xs skill-holder rightReveal">
+                            <div class="icon-holder-circle education" style="background-image: url(images/{{educationImg}});"> </div>
+                        </div>
+                        <div class="col-sm-20 col-md-10 col-lg-10 mt40-xs skill-holder rightReveal" style="padding-top:30px;">
+                            <p>
+                                <b>{{university}}</b><br>
+                                <b>{{degree}}</b><br>
+                                <b>{{year}}</b><br>
+                                <b>{{place}}</b>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.column -->
+            </div>
+            <!-- /.row -->
+
+            <div class="row mb40">
+                <!-- Skills -->
+                <div class="col-md-12 leftReveal">
+                    <!--<h5 class="heading-1 mb20">Skills</h5>-->
+                    <h3 class="mb20"><span class="paragraph-logo">S</span> Skills</h3>
+                    <div class="row">
+                        <!-- Step 1 -->
+                        <div class="col-md-3 bottomReveal" ng-repeat="skill in firstSet">
+                            <h6 class="spaced mb15">
+                                <span class="icon-holder-circle {{skill.skillicon}}"></span> {{skill.skillname}}
+                            </h6>
+                            <p class="no-margin-bottom">{{skill.allskills}} </p>
+                        </div>
+                        <!-- /.column -->
+                    </div>
+                    <div class="row">
+                        <!-- Step 1 -->
+                        <div class="col-md-3 bottomReveal" ng-repeat="skill in lastSet">
+                            <h6 class="spaced mb15">
+                                <span class="icon-holder-circle {{skill.skillicon}}"></span> {{skill.skillname}}
+                            </h6>
+                            <p class="no-margin-bottom">{{skill.allskills}}</p>
+                        </div>
+                        <!-- /.column -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.column -->
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </section>

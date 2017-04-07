@@ -1,0 +1,70 @@
+    <section id="services" class="section-padding section-border-bottom">
+        <div class="container">
+            <!-- Title -->
+            <div class="row mb60">
+                <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
+                    <h2>Projects</h2>
+                    <span class="divider divider-center divider-dark"></span>
+                </div>
+                <!-- /.column -->
+            </div>
+            <!-- /.row -->
+
+            <!-- Row 1 - Boxes -->
+            <div class="row mb30" ng-repeat="company in companyProjects">
+                <!-- Box 1 -->
+                <div class="col-md-12 leftReveal">
+                    <div class="services-box">
+                        <span class="notlight-icon">{{company.compname}}</span>
+                        <h4>{{company.workdate}} ( {{company.workduration}} ) </h4>
+                        <div class="timeline-centered">
+
+                            <article class="timeline-entry" ng-repeat="project in company.projects">
+
+                                <div class="timeline-entry-inner">
+
+                                    <div class="timeline-icon bg-success">
+
+                                    </div>
+
+                                    <div class="timeline-label">
+                                        <div class="row">
+                                            <div class="col-md-6 projectname">
+                                                <h6><b>{{project.projname}}</b></h6>
+                                            </div>
+                                            <div class="col-md-6 projectrole">
+                                                <h6><b>Client : </b>{{project.projclient}}</h6>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 projectdesc">
+                                                <p ng-repeat="desc in project.projdesc">{{desc}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 projectskills">
+                                                <span ng-repeat = "skill in project.projskills">
+                                                    <span class="label label-default">{{skill}}</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </article>
+
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /.column -->
+            </div>
+            <!-- /.row -->
+            
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- End Services -->

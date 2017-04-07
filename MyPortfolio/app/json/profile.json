@@ -1,0 +1,60 @@
+{
+	"summary" : [
+		"I am an Oracle Certified Java Programmer (OCJP 6.0) and a full stack developer with 6+ years experience.",
+		"I started my career in IBM as a backend developer working on JAVA/J2EE technolgies and I was always curious and fascinated about how the front end works and it was not long before I started working on front end and to this day have worked on multiple front end technolgies.",
+		"Being a developer I primarily work with JAVA and J2EE, but being full stack developer I am good in HTML(5)/CSS, AngularJS, Node.JS, JQUERY, JavaScript, Ajax, JSON and many more.",
+		"I am specialised in WEB-SERVICES and in different Java Frameworks including but not limited to : - SPRING MVC, STRUTS 1 & 2.X, Hibernate, JAX-RS REST, SOAP.",
+		"I can work individually or in a team and can finish the task quickly with excellent standards via different technologies and facilitating agile practices.",
+		"I have single handedly developed two IBM internal Single Page Web Applications 'Tivoli Delegate Administration' and 'Customer Sentiment Analysis' starting from Information Gathering, Planning, Design, Development, Testing and also decided the tech stack for these web apps.",
+		"I have also tried my hands on developing few Hybrid Mobile Apps using Ionic Mobile Framework and AngularJS.",
+		"I am familiar with various IDEs such as RAD, WSAD, MQExplorer and Altova XML Spy and I am used to acquaint myself with new tools, technologies and development platforms.",
+		"I have good experience in handling high priority production issues.",
+		"I am invloved in testing VMWare vSphere6.0 product API's by writing JAVA test cases using TestNG framework.",
+		"I believe in upgrading myself with new technologies so i keep on learning new technologies , some of them which I learned by myself are AngularJS, Node.JS, MongoDB, Android, MEAN stack, Mobile app development."
+	],
+	"education" : {
+		"image" : "vtu.png",
+		"university" : "Visvesvaraya Technological University",
+		"degree":"Bachelor of Engineering (B.E.) in Computer Science and Engineering",
+		"year" : "2004-2008",
+		"place" : "Belgaum, India"
+	},
+	"skills" : [
+		{	
+			"skillname" : "Java Technologies",
+			"skillicon" : "ion-coffee",
+			"allskills" : "Core Java, Spring MVC, Spring Boot, JDBC, Spring JDBC, Hibernate, JPA,Spring HATEOAS, JMS, EJB, MDB, RESTFul Web Services"
+		},
+		{	
+			"skillname" : "Web Technologies",
+			"skillicon" : "ion-ios-world-outline",
+			"allskills" : "Bootstrap JS Framework, Angular JS, JavaScript, JSON, HTML5.0, CSS, JQuery, AJAX, Node.js"
+		},
+		{	
+			"skillname" : "Unit Test",
+			"skillicon" : "ion-edit",
+			"allskills" : "JUnit, TestNG, Mockito"
+		},
+		{	
+			"skillname" : "Application Servers",
+			"skillicon" : "ion-gear-a",
+			"allskills" : "IBM WebSphere Application Server (WAS) v5.1 v7, Apache Tomcat v6"
+		},
+		{	
+			"skillname" : "Database",
+			"skillicon" : "ion-android-cloud",
+			"allskills" : "Oracle 9i, DB2, MySQL, IBM Cloudant NoSQL DB, IBM BlueMix, Nimbus Cloud Computing(IAAS)"
+		},
+		{	
+			"skillname" : "Tools",
+			"skillicon" : "ion-wrench",
+			"allskills" : "IBM RAD, IBM RSA, VMWare Vsphere v6.0, Eclipse, IntelliJ IDEA, Brackets, Sublime Text"
+		},
+		{	
+			"skillname" : "Build Tools",
+			"skillicon" : "ion-hammer",
+			"allskills" : "Ant, Maven, Bower, Grunt, IBM Clearcase, CMVC, Perforce, GIT"
+		}
+
+	]
+}
